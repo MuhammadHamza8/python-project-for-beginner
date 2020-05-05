@@ -3,7 +3,7 @@
 c = 0    #this show number of car 
 r=  0    #this show number of racksha
 b = 0     #this show number of buses
-amount = 0  # fees for parkinvehicals car has Rs 200, ricksha RS 300 , bus Rs 400
+amount = 0  # fees for parking vehicals car has Rs 200, ricksha RS 300 , bus Rs 400
 count = 0   #number of vehical in a parking 
 
 while True:
