@@ -50,4 +50,4 @@ while True:
             print("record has been deleted")
     
     elif choice==-1:
-             print("invalid value please enter proper value ")
+             print("invalid value please enter proper value and user friendly  ")
