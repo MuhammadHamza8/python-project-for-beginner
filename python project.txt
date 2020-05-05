@@ -1,0 +1,53 @@
+#project for car parkiing system in python for begainner
+    
+c = 0    #this show number of car 
+r=  0    #this show number of racksha
+b = 0     #this show number of buses
+amount = 0  # fees for parkinvehicals car has Rs 200, ricksha RS 300 , bus Rs 400
+count = 0   #number of vehical in a parking 
+
+while True:
+    print("***************")
+    print("****************")
+    print("press 1 for parking car !")
+    print("******************")
+    print("press 2 for parking  racksha !")
+    print("********************")
+    print("press 3 for parking  bus !")
+    print("************************")
+    print("press 4 for show record !")
+    print("*************************")
+    print("press 5 for delete recourd !")
+    print("**********************")
+    print("***********************")
+
+    choice = int(input("enter you choice"))
+
+    if choice == 1 :
+        amount+=200
+        count+=1
+        c+=1
+
+    elif choice == 2 :
+             amount+=300
+             count+=1
+             r+=1
+
+    elif choice == 3:
+            amount+=400
+            count+=1
+            b+=1
+    elif choice ==4:
+        print("The total price is "+str(amount))
+        print("The total number of vehical are "+str(count))
+        print("The number of car are "+str(c))
+        print("The number of ricksha are"+str(r))
+        print("The number of buses are"+str(b))
+
+    elif choice ==5:
+            amount=0;
+            count=0
+            print("record has been deleted")
+    
+    elif choice==-1:
+             print("invalid value please enter proper value ")
